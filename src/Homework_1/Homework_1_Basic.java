@@ -25,6 +25,7 @@ public class Homework_1_Basic {
         System.out.println(alphabet);
 
         //Продвинутый уровень
+        //Задача №1
 
     }
 }
