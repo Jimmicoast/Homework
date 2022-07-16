@@ -1,11 +1,7 @@
-//Базовый уровень
 package Homework_1;
-
-import java.text.DecimalFormat;
-import java.util.Locale;
-
 public class Homework_1_Basic {
     public static void main(String[] args) {
+        //Базовый уровень
         //Задача №1
         String hi = "                Hello ";
         String world = " WoRld!";
