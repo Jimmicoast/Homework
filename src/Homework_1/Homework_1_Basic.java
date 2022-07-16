@@ -23,5 +23,8 @@ public class Homework_1_Basic {
         System.out.println(alphabet);
         alphabet[3] = 'h';
         System.out.println(alphabet);
+
+        //Продвинутый уровень
+
     }
 }
