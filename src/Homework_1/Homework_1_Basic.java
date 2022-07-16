@@ -27,5 +27,6 @@ public class Homework_1_Basic {
         //Продвинутый уровень
         //Задача №1
 
+
     }
 }
