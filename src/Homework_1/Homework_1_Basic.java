@@ -17,9 +17,15 @@ public class Homework_1_Basic {
         System.out.println(resultMulti);
 
         //Задача №2
-        double height = 1.81;
+        float height = 1.81f;
         int weight = 63;
-        double indexHuman = height / (weight * weight);
+        float indexHuman = height / (weight * weight);
         System.out.printf("Мой индекс массы тела - %.6f", indexHuman);
+
+        //Задача №3
+        char[] alphabet = {'a', 'b', 'c', 'd', 'e'};
+        System.out.println(alphabet);
+        alphabet[3] = 'h';
+        System.out.println(alphabet);
     }
 }
