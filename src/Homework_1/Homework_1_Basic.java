@@ -20,7 +20,6 @@ public class Homework_1_Basic {
         double height = 1.81;
         int weight = 63;
         double indexHuman = height / (weight * weight);
-        String indexHumanProper = String.format("Мой индекс - %.6f", 4.560342655580751E-4);
-        System.out.println(indexHumanProper);
+        System.out.printf("Мой индекс массы тела - %.6f", indexHuman);
     }
 }
