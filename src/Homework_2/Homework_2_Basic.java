@@ -20,6 +20,28 @@ public class Homework_2_Basic {
         else {
             System.out.println("\nРебенок пошел в университет");
         }
+        //Задача №3
+        boolean chicken = true;
+        boolean vegetables = false;
+        boolean sauce = true;
+        boolean toasts = true;
+        boolean sausage = true;
+        boolean eggs = true;
+        boolean Ceasar = chicken && vegetables && sauce && toasts;
+        boolean Olivie = vegetables && (chicken || sausage) && eggs;
+        boolean vegetableSalad = vegetables;
+        if (boolean Ceasar = chicken && vegetables && sauce && toasts) {
+            System.out.println("Приготовим Цезарь");
+        }
+        else if (boolean Olivie = vegetables && (chicken || sausage) && eggs) {
+            System.out.println("Приготовим Оливье");
+        }
+        else if (boolean vegetableSalad = vegetables) {
+            System.out.println("Приготовим овощной салат");
+        }
+        else {
+            System.out.println("Ингридиентов нет, голодная смерть");
+        }
 
     }
 
