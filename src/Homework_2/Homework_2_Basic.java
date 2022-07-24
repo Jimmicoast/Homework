@@ -22,26 +22,28 @@ public class Homework_2_Basic {
         }
         //Задача №3
         boolean chicken = true;
-        boolean vegetables = false;
-        boolean sauce = true;
+        boolean vegetables = true;
+        boolean sauce = false;
         boolean toasts = true;
-        boolean sausage = true;
+        boolean sausage = false;
         boolean eggs = true;
         boolean Ceasar = chicken && vegetables && sauce && toasts;
         boolean Olivie = vegetables && (chicken || sausage) && eggs;
-        boolean vegetableSalad = vegetables;
-        if (boolean Ceasar = chicken && vegetables && sauce && toasts) {
+        if (Ceasar) {
             System.out.println("Приготовим Цезарь");
         }
-        else if (boolean Olivie = vegetables && (chicken || sausage) && eggs) {
+        else if (Olivie) {
             System.out.println("Приготовим Оливье");
         }
-        else if (boolean vegetableSalad = vegetables) {
+        else if (vegetables) {
             System.out.println("Приготовим овощной салат");
         }
         else {
-            System.out.println("Ингридиентов нет, голодная смерть");
+            System.out.println("Ингредиентов нет");
         }
+        //Задача №4
+        String weasel = "Хорёк";
+
 
     }
 
