@@ -42,9 +42,37 @@ public class Homework_2_Basic {
             System.out.println("Ингредиентов нет");
         }
         //Задача №4
-        String weasel = "Хорёк";
+        Weasel sneaky = new Weasel("Sneaky", 4, 210);
+        System.out.println("хорек по имени " + sneaky.nickname);
+        System.out.println("возраст хорька - " + sneaky.age);
+        System.out.println("вес хорька - " + sneaky.weight);
 
+        sneaky.makeSound();
+        sneaky.setNickname("Fluffy");
+        String weaselNickname = sneaky.getNickname();
+        sneaky.setAge(5);
+        int weaselAge = sneaky.getAge();
+        sneaky.setWeight(235);
+        int weaselWeight = sneaky.getWeight();
+        System.out.println("хорек по имени " + sneaky.nickname);
+        System.out.println("возраст хорька - " + sneaky.age);
+        System.out.println("вес хорька - " + sneaky.weight);
 
+        Parrot kesha = new Parrot("Kesha", 7, 650);
+        System.out.println("имя попугая - " + kesha.nickname);
+        System.out.println("возраст попугая - " + kesha.age);
+        System.out.println("вес попугая - " + kesha.weight);
+
+        kesha.sayHi();
+        kesha.setNickname("Gosha");
+        String parrotNickname = kesha.getNickname();
+        kesha.setAge(10);
+        int parrotAge = kesha.getAge();
+        kesha.setWeight(770);
+        int parrotWeight = kesha.getWeight();
+        System.out.println("имя попугая - " + kesha.nickname);
+        System.out.println("возраст попугая - " + kesha.age);
+        System.out.println("вес попугая - " + kesha.weight);
     }
 
 }
